@@ -15,6 +15,8 @@ namespace chote {
 		SetExitKey(0);
 		#endif
 
+		SetTargetFPS(60);
+
 	}
 
 	App::~App() {
@@ -26,7 +28,7 @@ namespace chote {
 	void App::run() {
 
 		SharedData::init();
-		test_scene = std::make_shared<BaseScene>(0);
+		test_scene = std::make_shared<StartScene>();
 
 		loop();
 	}

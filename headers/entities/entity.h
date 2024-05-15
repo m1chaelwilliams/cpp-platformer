@@ -25,12 +25,12 @@ class Entity {
 	Entity(
 		const Sprite& sprite
 	);
+	
 	virtual ~Entity() = default;
 	Entity(const Entity& other) = default;
 
 	virtual void draw();
 	virtual void update();
-	
 
 };
 

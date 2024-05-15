@@ -1,12 +1,11 @@
 // contains data for the entire world
 
-#ifndef SPHERE_WORLD_H
-#define SPRHERE_WORLD_H
+#ifndef WORLD_H
+#define WORLD_H
 
 #include "entities/entity.h"
 #include <vector>
 #include <memory>
-
 
 class World {
 

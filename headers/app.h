@@ -2,7 +2,7 @@
 #define SPHERE_APP_H
 
 #include <raylib.h>
-#include "scenes/basescene.h"
+#include "scenes/prelude.h"
 #include <memory>
 
 namespace chote {

@@ -1,5 +1,2 @@
-enum Scenes {
-	Game
-};
-
 #include "scenes/basescene.h"
+#include "scenes/startscene.h"
